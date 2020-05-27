@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import Newsletter from "../components/Newsletter"
+import Featured from "../components/Featured"
 
 const IndexPage = () => (
   <Layout>
@@ -27,6 +28,9 @@ const IndexPage = () => (
       <div className="image-container">
         <img src="https://cl.ly/3c4fa17c3cbc/download/Blocks.png" />
       </div>
+    </div>
+    <div className="articles">
+      <Featured />
     </div>
   </Layout>
 )
